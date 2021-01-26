@@ -1,0 +1,1 @@
+enum Rank { MATE, SUPER_MATE, HYPER_MATE, KING_MATE }

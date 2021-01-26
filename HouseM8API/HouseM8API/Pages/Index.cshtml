@@ -1,0 +1,47 @@
+﻿@page
+<div class="container">
+    <div class="row">&nbsp;</div>
+    <div class="row">
+        <div class="col-2">Connection ID do Destinatário</div>
+        <div class="col-4"><input type="text" id="userInput" /></div>
+    </div>
+    <div class="row">
+        <div class="col-2">Connection ID do Remetente</div>
+        <div class="col-4"><input type="text" id="groupInput" /></div>
+    </div>
+    <div class="row">
+        <div class="col-2">Id do remetente</div>
+        <div class="col-4"><input type="number" id="senderIdInput" /></div>
+    </div>
+     <div class="row">
+        <div class="col-2">Id do destinatário</div>
+        <div class="col-4"><input type="number" id="targetIdInput" /></div>
+    </div>
+    <div class="row">
+
+        <div class="col-2">Mensagem</div>
+        <div class="col-4"><input type="text" id="messageInput" /></div>
+    </div>
+
+    <div class="row">&nbsp;</div>
+    <div class="row">
+        <div class="col-6">
+            <input type="button" id="sendButton" value="Send Message" />
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <hr />
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-6">
+        <ul id="messagesList"></ul>
+    </div>
+</div>
+
+<script src="~/js/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/chat.js"></script>
